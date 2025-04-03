@@ -546,6 +546,8 @@ div .container {
 .footer-form {
   display: flex;
   gap: 24px;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 
 .footer-form-input {
@@ -645,6 +647,7 @@ div .container {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   padding: 72px 24px 24px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop:not(.is-open) .modal {
@@ -764,7 +767,7 @@ textarea:focus {
 /* ----checkbox----- */
 
 .checkbox-element {
-  visibility: hidden;
+  /* visibility: hidden; */
   position: absolute;
 }
 
