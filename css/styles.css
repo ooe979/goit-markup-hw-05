@@ -525,7 +525,7 @@ div .container {
 .footer-social .social-link-icon:focus {
   background-color: #31d0aa;
 }
-
+/* --------subscribe----------- */
 .subscribe {
   margin-left: auto;
 }
@@ -539,8 +539,9 @@ div .container {
 }
 
 .form-label {
-  display: flex;
+  display: block;
   gap: 24px;
+  margin: 0;
 }
 
 .footer-form {
@@ -556,12 +557,12 @@ div .container {
 
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
   height: 40px;
   background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
-  margin-right: 24px;
+  width: 264px;
+  /* margin-right: 24px; */
   padding-left: 16px;
   color: #fff;
 
