@@ -538,11 +538,17 @@ div .container {
   margin-bottom: 16px;
 }
 
-.footer-form {
+.form-label {
   display: flex;
+  gap: 24px;
 }
 
-.footer-form > input {
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-input {
   border: none;
   outline: none;
 
@@ -571,7 +577,7 @@ div .container {
 .button-subscribe {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
