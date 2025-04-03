@@ -611,7 +611,14 @@ div .container {
 } */
 
 form {
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
 }
 
 .form-label {
@@ -621,6 +628,7 @@ form {
   line-height: 1.2;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 4px;
 }
 
 .input-wrapper {
