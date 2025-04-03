@@ -704,15 +704,16 @@
         <form class="backdrop-form">
           <div class="form-field">
             <label
+              for="user-name"
               class="form-label"
-              for="input-name"
-              >Name</label
+            >
+              Name</label
             >
             <div class="input-wrapper">
               <input
                 class="form-input"
-                name="input-name"
-                id="input-name"
+                name="user-name"
+                id="user-name"
                 type="text"
               />
               <svg
@@ -768,19 +769,19 @@
               </svg>
             </div>
           </div>
-          <div class="form-field">
+          <div class="form-field comment">
             <label
               class="form-label"
-              for="comment"
+              for="user-comment"
               >Comment</label
             >
-            <div class="input-wrapper">
-              <textarea
-                name="comment"
-                id="comment"
-                placeholder="Text input"
-              ></textarea>
-            </div>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="user-comment"
+            ></textarea>
+            <!-- <div class="input-wrapper"></div> -->
           </div>
           <div class="checkbox">
             <input
