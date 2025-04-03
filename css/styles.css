@@ -788,7 +788,7 @@ textarea:focus {
 }
 
 .checkbox label {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   cursor: pointer;
 }
