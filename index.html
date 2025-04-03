@@ -100,6 +100,7 @@
           <button
             type="button"
             class="order-button"
+            data-modal-open
           >
             Order Service
           </button>
@@ -685,11 +686,15 @@
     </footer>
 
     <!-- -----backdrop----- -->
-    <div class="backdrop">
+    <div
+      class="backdrop"
+      data-modal
+    >
       <div class="modal">
         <button
           type="button"
           class="modal-close-btn"
+          data-modal-close
         >
           <svg
             class="close-icon"
@@ -823,5 +828,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
